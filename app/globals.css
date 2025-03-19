@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-white text-black font-sans transition-colors ease-in-out duration-500;
+}
+
+#quote-box {
+  @apply flex flex-col justify-center items-center p-8 rounded-lg shadow-lg w-full max-w-lg mx-auto;
+}
